@@ -9,9 +9,6 @@ import javax.persistence.OneToOne;
 @Embeddable
 public class Contato implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private String email;
 	@OneToOne(cascade = CascadeType.ALL)
