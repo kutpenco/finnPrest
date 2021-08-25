@@ -1,5 +1,10 @@
 package br.com.digitalhouse.finnprest.service;
 
-public class EmprestimoService {
+import br.com.digitalhouse.finnprest.repository.PropostaRepository;
 
+public class EmprestimoService {
+	
+	private final PropostaRepository propostaRepository;
+	//private final 
+	
 }
